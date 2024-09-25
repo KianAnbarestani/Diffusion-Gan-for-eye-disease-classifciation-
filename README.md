@@ -15,7 +15,7 @@ either use your own env if the libraries are added
 
 ## Datasets
 
-1. Download [HAM10000](https://challenge.isic-archive.com/data/#2018) or [APTOS2019](https://www.kaggle.com/competitions/aptos2019-blindness-detection/data) dataset.or any dataset you want but you should create a pkl file and customize the database based on the infos . Your dataset folder under "your_data_path" should be like:
+1. Download [HAM10000](https://challenge.isic-archive.com/data/#2018) or [APTOS2019](https://www.kaggle.com/competitions/aptos2019-blindness-detection/data) dataset or any dataset you want but you should create a pkl file and customize the database based on the infos .we added a custome loader dataset on the root for this situation. Your dataset folder under "your_data_path" should be like:
 
 dataset/isic2018/
 
