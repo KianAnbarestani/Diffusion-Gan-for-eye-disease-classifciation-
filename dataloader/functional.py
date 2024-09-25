@@ -1,20 +1,21 @@
 import math
 import random
-
 from PIL import Image, ImageEnhance, ImageOps
+import collections
+import numbers
+import types
+import warnings
+import cv2
+import numpy as np
+from PIL import Image
+
 
 try:
     import accimage
 except ImportError:
     accimage = None
-import collections
-import numbers
-import types
-import warnings
 
-import cv2
-import numpy as np
-from PIL import Image
+
 
 _cv2_pad_to_str = {
     'constant': cv2.BORDER_CONSTANT,
