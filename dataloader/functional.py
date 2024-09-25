@@ -1,5 +1,4 @@
 import math
-import random
 from PIL import Image, ImageEnhance, ImageOps
 import collections
 import numbers
