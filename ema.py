@@ -1,5 +1,6 @@
 import torch.nn as nn
 
+
 class EMA(object):
     def __init__(self, mu=0.999):
         self.mu = mu
