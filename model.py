@@ -3,9 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torchvision.models.resnet import resnet18, resnet50
 from torchvision.models.densenet import densenet121
-
 from timm.models import create_model
-
 import numpy as np
 
 class ConditionalLinear(nn.Module):
